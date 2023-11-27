@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    left:0;
+    top:0;
+    width:100%;
+    height:80px;
+}
+
+header h4{
+    position:absolute;
+    bottom: 1rem;
+    font-size:2.6rem;
+}
+
+/* Splash screen  */
+
+.intro{
+    position:fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    width:100%;
+    height:100vh;
+    background-color: #8A9A5B;
+    transition: 1s;
+}
+
+.logo-header{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:#ffffff;
+}
+
+.logo{
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity:0;
+    font-family: 'Sacramento', cursive;
+    font-weight: 100;
+
+}
+
+.logo.active{
+    bottom:0;
+    opacity:1;
+    transition: ease-in-out 0.5s;
+
+}
+
+.logo.fade{
+    bottom: 150px;
+    opacity:0;
+    transition: ease-in-out 0.5s;
+
+}
+
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+
+

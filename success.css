@@ -1,0 +1,17 @@
+body{
+    background-image:url("collageBG.jpg");
+    background-size: contain;
+}
+.successMsg{
+        display: flex;
+        align-items: center;
+        text-align:center;
+        justify-content: center;
+        width:100%;
+        height:800px;
+        font-size:1.4rem;
+          color:green;
+    
+        }
+
+ 

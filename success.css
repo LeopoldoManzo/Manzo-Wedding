@@ -1,5 +1,5 @@
 body{
-    background-image:url("collageBG.jpg");
+    background-image:url("collageBG2.jpg");
     background-size: contain;
 }
 .successMsg{
@@ -10,7 +10,10 @@ body{
         width:100%;
         height:800px;
         font-size:1.4rem;
-          color:green;
+          color:black;
+          font-family: 'Amatic SC', sans-serif;
+          font-size:30px;
+          
     
         }
 

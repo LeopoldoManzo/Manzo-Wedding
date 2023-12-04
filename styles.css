@@ -16,7 +16,6 @@ header h4{
     position:absolute;
     bottom: 1rem;
     font-size:2.6rem;
-    color:#ffffff;
 }
 
 /* Splash screen  */
@@ -28,7 +27,7 @@ header h4{
     top:0;
     width:100%;
     height:100vh;
-    background-color: #8A9A5B;
+    background-color: #bdc1a4 ;
     transition: 1s;
 }
 
@@ -39,6 +38,16 @@ header h4{
     transform: translate(-50%, -50%);
     color:#ffffff;
 }
+@media only screen and (max-width: 400px) {
+    .logo {
+      font-size: 1.8rem;
+    }
+  }
+  @media only screen and (min-width: 401px) {
+    .logo {
+      font-size: 2.8rem;
+    }
+  }
 
 .logo{
     position: relative;
@@ -47,7 +56,6 @@ header h4{
     opacity:0;
     font-family: 'Sacramento', cursive;
     font-weight: 100;
-
 }
 
 .logo.active{
